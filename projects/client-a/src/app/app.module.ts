@@ -23,7 +23,7 @@ import { ErrorComponent } from './error/error.component';
         ]
       },
       { path: '**', component: ErrorComponent }
-    ], { useHash: true  }),
+    ], { useHash: true, relativeLinkResolution: 'legacy' }),
     ReactiveFormsModule
   ],
   declarations: [

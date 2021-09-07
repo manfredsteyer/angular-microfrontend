@@ -19,7 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
         { path: 'page2', component: Page2Component },
       ]},
       { path: '**', component: EmptyComponent }
-    ], { useHash: true }),
+    ], { useHash: true, relativeLinkResolution: 'legacy' }),
     ReactiveFormsModule
   ],
   declarations: [
