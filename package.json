@@ -33,7 +33,7 @@
     "@angular/router": "~8.0.1",
     "@webcomponents/custom-elements": "^1.1.0",
     "@webcomponents/webcomponentsjs": "^2.2.10",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "copy": "^0.3.2",
     "core-js": "^2.5.4",
     "ngx-build-plus": "^8.1.1",
